@@ -8,12 +8,14 @@ body{
 }
 main{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 .container{
     background-color: #FFFFFF;
     width: 870px;
     padding: 33px;
+    margin-top: 21px;
 }
 hr{
     border: 1px solid #D1D1D1;
@@ -73,4 +75,24 @@ hr{
     color:  #562EFF;
     font-size: 16px;
     text-decoration: none;
+}
+
+/* courses styles */
+.courses .course img{
+    width: 224px;
+    height: 104px;
+}
+.course-info{
+display: flex;
+align-items: center;
+}
+.fa-star{
+    font-size: 12px;
+}
+.fa-star.filled{
+    color:  #FFC014;
+    ;
+}
+.fa-star.empty{
+    color:#AEAEAE ;
 }
